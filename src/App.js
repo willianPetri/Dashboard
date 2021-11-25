@@ -1,6 +1,7 @@
 import './App.css';
 import Sidebar from './components/Sidebar';
 import StatsCard from './components/StatsCard';
+import OrderReport from './components/OrderReport';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         </header>
         <hr className='border-white ' />
         <StatsCard />
+        <OrderReport />
       </main>
     </div>
   );
