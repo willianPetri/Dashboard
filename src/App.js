@@ -2,6 +2,7 @@ import './App.css';
 import Sidebar from './components/Sidebar';
 import StatsCard from './components/StatsCard';
 import OrderReport from './components/OrderReport';
+import MostOrdered from './components/MostOrdered';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         <StatsCard />
         <OrderReport />
       </main>
+      <aside className='flex flex-col gap-y-6 pt-6 w-96'>
+        <MostOrdered />
+      </aside>
     </div>
   );
 }
