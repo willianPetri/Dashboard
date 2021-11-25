@@ -1,5 +1,5 @@
 module.exports = {
-  mode: 'jit',  
+  mode: 'jit',
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -19,6 +19,7 @@ module.exports = {
         accent: {
           blue: '#65B0F6',
           orange: '#FFB572',
+          orange2: '#D43500',
           red: '#FF7CA3',
           green: '#50D1AA',
           purple : '#9290FE'

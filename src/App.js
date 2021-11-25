@@ -3,6 +3,7 @@ import Sidebar from './components/Sidebar';
 import StatsCard from './components/StatsCard';
 import OrderReport from './components/OrderReport';
 import MostOrdered from './components/MostOrdered';
+import MostTypeOfOrder from './components/MostTypeOfOrder';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <main className="flex flex-col flex-1 w-full gap-6 p-4">
         <header>
           <h1 className="text-3xl font-semibold leading-loose text-white">Dashboard</h1>
-          <div className="text-gray-100">Tuesday 2 Feb, 2021</div>
+          <div className="text-gray-500">Tuesday 2 Feb, 2021</div>
         </header>
         <hr className='border-white ' />
         <StatsCard />
@@ -19,6 +20,7 @@ function App() {
       </main>
       <aside className='flex flex-col gap-y-6 pt-6 w-96'>
         <MostOrdered />
+        <MostTypeOfOrder />
       </aside>
     </div>
   );

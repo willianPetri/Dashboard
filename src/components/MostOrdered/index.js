@@ -27,7 +27,7 @@ const MostOrdered = () => {
       <div className="flex justify-between items-center">
         <h2 className="text-xl font-semibold leading-loose text-white">Most Ordered</h2>
         <button className="flex gap-x-2 py-3 px-4 rounded-lg border border-gray-700">
-          <i className='fas fa-chevron-down' />
+          <i className='fas fa-chevron-down text-white' />
           <span className="text-sm text-white">Today</span>
         </button>
       </div>
@@ -43,7 +43,7 @@ const MostOrdered = () => {
           </div>
         ))}
       </div>
-      <button className="py-3.5 rounded-lg w-full border border-primary text-primary text-sm font-semibold">
+      <button className="py-3.5 rounded-lg w-full border border-primary text-primary text-sm font-semibold hover:text-white hover:bg-accent-orange2 hover:bg-opacity-80">
         View all
       </button>
     </div>
